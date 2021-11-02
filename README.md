@@ -26,20 +26,7 @@ Start Rstudio and double-click the downloaded R file in the lower right window.
 
 Click ▶ Run App.
 
-# Author
 
-Enumerate the creation information.
-
-* Fushimi Shunsuke
-* Kyoto U
-* f.shunsuke0402@gmail.com
-
-# License
-Specify the license.
-
-[MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-Translated with www.DeepL.com/Translator (free version)
 
 # ggplot2_GUI
 
