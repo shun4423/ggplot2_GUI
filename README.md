@@ -11,6 +11,12 @@ Therefore, dot plots and box plots are provided, but no bar plots.
 Detailed settings such as color, font, and graph size are available.
 ![](https://user-images.githubusercontent.com/60542816/139782310-db2d0282-ab8c-46c5-a68a-a43b2f01cee4.png) ![](https://user-images.githubusercontent.com/60542816/139782345-d69d8e7a-3a04-4177-8c0e-9f320fc843f6.png)
 
+There is an optional feature to bookmark and restore various values. This saves you from having to set the values again and again.
+
+ - Bookmark them in the Options tab and save them in an RDS file.
+
+ - When you restore, upload that RDS file. Due to specifications, you have to upload the data file after restoring the configuration.
+
 # Requirement
 
 R.studio is 2021.09.0+351, R is 4.1.1.
@@ -42,6 +48,12 @@ ggplot2をshinyベースでGUI化したものです。
 したがって、ドットプロットおよび箱ひげ図が用意されていますが、棒グラフはありません。
 
 色やフォント、グラフのサイズなど細かい設定を用意しています。
+
+さまざまな値をブックマークし、復元するオプション機能があります。これによって、なんども値の設定をせずに済みます。
+
+ - 1.オプションタブでブックマースし、RDSファイルで保存します。
+
+ - 2.復元する際、そのRDSファイルをアップロードします。仕様上、設定を復元したあとにデータファイルをアップロードしなければなりません。
 
 # Requirement
 
