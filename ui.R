@@ -24,7 +24,8 @@ ui <- function(request){
                            
                            selectInput("graph","graph:",choices=c("dotplot(n<10)"="dotplot",
                                                                   "boxplot",
-                                                                  "violinplot")),
+                                                                  #"violinplot"
+                                                                 )),
                            actionButton("submit", "plot"),
                            selectInput("jit","jitter:",choices=c("center"="cent",
                                                                  "quasirandom",
