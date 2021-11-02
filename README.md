@@ -9,7 +9,7 @@ This source code is based on [the idea of this paper](https://www.ahajournals.or
 Therefore, dot plots and box plots are provided, but no bar plots.
 
 Detailed settings such as color, font, and graph size are available.
-
+![](https://user-images.githubusercontent.com/60542816/139782310-db2d0282-ab8c-46c5-a68a-a43b2f01cee4.png) ![](https://user-images.githubusercontent.com/60542816/139782345-d69d8e7a-3a04-4177-8c0e-9f320fc843f6.png)
 
 # Requirement
 
