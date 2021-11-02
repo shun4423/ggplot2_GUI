@@ -8,6 +8,9 @@ This source code is based on [the idea of this paper](https://www.ahajournals.or
 
 Therefore, dot plots and box plots are provided, but no bar plots.
 
+Detailed settings such as color, font, and graph size are available.
+
+
 # Requirement
 
 R.studio is 2021.09.0+351, R is 4.1.1.
@@ -37,6 +40,8 @@ ggplot2をshinyベースでGUI化したものです。
 このソースコードは[この論文の考え](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.118.037777)のもと、作成されています。
 
 したがって、ドットプロットおよび箱ひげ図が用意されていますが、棒グラフはありません。
+
+色やフォント、グラフのサイズなど細かい設定を用意しています。
 
 # Requirement
 
