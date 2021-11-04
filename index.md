@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+# ggplot2_GUI
 
-You can use the [editor on GitHub](https://github.com/Manuel83/sample/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+A shiny based GUI version of ggplot2.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Features
 
-### Markdown
+This source code is based on [the idea of this paper](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.118.037777).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Therefore, dot plots and box plots are provided, but no bar plots.
 
-```markdown
-Syntax highlighted code block
+Detailed settings such as color, font, and graph size are available.
+![](https://user-images.githubusercontent.com/60542816/139782310-db2d0282-ab8c-46c5-a68a-a43b2f01cee4.png) ![](https://user-images.githubusercontent.com/60542816/139782345-d69d8e7a-3a04-4177-8c0e-9f320fc843f6.png)
 
-# Header 1
-## Header 2
-### Header 3
+There is an optional feature to bookmark and restore various values. This saves you from having to set the values again and again.
 
-- Bulleted
-- List
+ - Bookmark them in the Options tab and save them in an RDS file.
 
-1. Numbered
-2. List
+ - When you restore, upload that RDS file. Due to specifications, you have to upload the data file after restoring the configuration.
 
-**Bold** and _Italic_ and `Code` text
+# Requirement
 
-[Link](url) and ![Image](src)
-```
+R.studio is 2021.09.0+351, R is 4.1.1.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The data file can be a CSV file or an xlsx file.
 
-### Jekyll Themes
+Also, the first row should have a data label and be a long vertical data array. A sample data is attached. Please check it out.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Manuel83/sample/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Setting
 
-### Support or Contact
+Install the missing libraries.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Create a folder in C:\Users\your user name\Documents\R and store each R file and www.
+
+Start Rstudio and double-click the downloaded R file in the lower right window.
+
+Click ▶ Run App.
+
+
+
+# ggplot2_GUI
+
+ggplot2をshinyベースでGUI化したものです。
+
+# Features
+
+このソースコードは[この論文の考え](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.118.037777)のもと、作成されています。
+
+したがって、ドットプロットおよび箱ひげ図が用意されていますが、棒グラフはありません。
+
+色やフォント、グラフのサイズなど細かい設定を用意しています。
+
+さまざまな値をブックマークし、復元するオプション機能があります。これによって、なんども値の設定をせずに済みます。
+
+ - 1.オプションタブでブックマースし、RDSファイルで保存します。
+
+ - 2.復元する際、そのRDSファイルをアップロードします。仕様上、設定を復元したあとにデータファイルをアップロードしなければなりません。
+
+# Requirement
+
+R.studioは2021.09.0+351、Rは4.1.1です。
+
+データファイルはCSVファイルか、xlsxファイルが対応しています。
+
+また、最初の行には、データラベルをつけ、縦に長いデータ配列にする必要があります。サンプルデータをつけています。ご確認ください。
+
+# Setting
+
+不足しているライブラリーをインストールする。
+
+C:\Users\your user name\Documents\Rにフォルダを作成し、各Rファイルとｗｗｗを収納する。
+
+Rstudioを起動し、右下のウィンドウからダウンロードしたRファイルをダブルクリックする。
+
+▶Run App をクリックする。
+
+# Author
+
+作成情報を列挙する
+
+* 伏見駿亮(Fushimi Shunsuke)
+* Kyoto U
+* f.shunsuke0402@gmail.com
+
+# License
+ライセンスを明示する
+
+[MIT license](https://en.wikipedia.org/wiki/MIT_License).
