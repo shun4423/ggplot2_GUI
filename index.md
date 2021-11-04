@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="k8xVJHDM-XM1bcmqtS6EXWDsUZ7DvxaAZnKQhKyyAoE" />
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/shun4423/ggplot2_GUI/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -36,4 +37,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-<meta name="google-site-verification" content="k8xVJHDM-XM1bcmqtS6EXWDsUZ7DvxaAZnKQhKyyAoE" />
+
