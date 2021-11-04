@@ -2,14 +2,13 @@
 library(shiny)
 library(shinyjqui)
 library(ggplot2)
-#library(tidyverse)
-#library(DT)
+
 #library(colourpicker)
 library(openxlsx)
 library(systemfonts)
 library(fontregisterer)
 library(RColorBrewer)
-#ggiraph vector
+
 library(shinyjs)
 library(utils)
 library(tools)
@@ -31,4 +30,4 @@ palet <- list("one" = list("Blues", "Greens", "Greys","Purples","Reds", "Oranges
                                    "Chevalier1","Zissou1","FantasticFox1","Darjeeling1","Darjeeling2","Rushmore1"))
 
 
-font <-c("BIZ UDPGothic", "BIZ UDPMincho", "Calibri","Helvetica", "Meiryo","Meiryo UI","Segoe UI","Times New Roman" ,"Yu Gothic","Yu Gothic UI","Yu Mincho")
+font <-c("BIZ UDPGothic", "BIZ UDPMincho", "Calibri", "Meiryo","Meiryo UI","Segoe UI","Times New Roman" ,"Yu Gothic","Yu Gothic UI","Yu Mincho")
