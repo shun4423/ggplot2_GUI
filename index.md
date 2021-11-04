@@ -11,8 +11,9 @@ Therefore, dot plots and box plots are provided, but no bar plots.
 Detailed settings such as color, font, and graph size are available.
 
 
-<img src="https://user-images.githubusercontent.com/60542816/139782310-db2d0282-ab8c-46c5-a68a-a43b2f01cee4.png" width="50%" height="50%"> 
-<img src="https://user-images.githubusercontent.com/60542816/139782345-d69d8e7a-3a04-4177-8c0e-9f320fc843f6.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/60542816/140275806-84fa58e0-b77c-4a71-b4c5-1b68b269aefe.gif" width="50%" height="50%">
+
+<img src="https://user-images.githubusercontent.com/60542816/139782345-d69d8e7a-3a04-4177-8c0e-9f320fc843f6.png" width="50%" height="50%"><img src="https://user-images.githubusercontent.com/60542816/139782310-db2d0282-ab8c-46c5-a68a-a43b2f01cee4.png" width="50%" height="50%">
 
 
 There is an optional feature to bookmark and restore various values. This saves you from having to set the values again and again.
