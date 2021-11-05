@@ -1,4 +1,4 @@
-# ggplot2_GUI
+# ggplot2_GUi
 
 A shiny based GUI version of ggplot2.
 
@@ -27,14 +27,22 @@ Also, the first row should have a data label and be a long vertical data array. 
 
 # Setting
 
-Install the missing libraries.
+1. [Use online](https://shun4423.shinyapps.io/ggplot2_GUi/)
 
-Create a folder in C:\Users\your user name\Documents\R and store each R file and www.
+ 　　 - This is the easiest way. However, it is not designed for online use, and some features may not be available (e.g., changing fonts).
+   
+2. Use offline
+   
+   a. Install the missing libraries.
+   
+   b. Create a folder in C:\Users\your user name\Documents\R and store each R file and www.
+   
+   c. Start Rstudio and double-click the downloaded R file in the lower right window.
+    
+   d. Click ▶ Run App.
 
-Start Rstudio and double-click the downloaded R file in the lower right window.
 
-Click ▶ Run App.
-
+Secondary distribution is strictly prohibited.
 
 
 # ggplot2_GUI
@@ -65,23 +73,29 @@ R.studioは2021.09.0+351、Rは4.1.1です。
 
 # Setting
 
-不足しているライブラリーをインストールする。
+1. [Use online](https://shun4423.shinyapps.io/ggplot2_GUi/)
 
-C:\Users\your user name\Documents\Rにフォルダを作成し、各Rファイルとｗｗｗを収納する。
+ 　　 - This is the easiest way. However, it is not designed for online use, and some features may not be available (e.g., changing fonts).
+   
+2. Use offline
+   
+   a. 不足しているライブラリーをインストールする。
+   
+   b. C:\Users\your user name\Documents\Rにフォルダを作成し、各Rファイルとｗｗｗを収納する。
+   
+   c. Rstudioを起動し、右下のウィンドウからダウンロードしたRファイルをダブルクリックする。
+    
+   d. ▶Run App をクリックする。
 
-Rstudioを起動し、右下のウィンドウからダウンロードしたRファイルをダブルクリックする。
-
-▶Run App をクリックする。
 
 # Author
-
-作成情報を列挙する
 
 * 伏見駿亮(Fushimi Shunsuke)
 * Kyoto U
 * f.shunsuke0402@gmail.com
 
 # License
-ライセンスを明示する
 
 [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
+二次配布を固く禁じます。
