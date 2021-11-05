@@ -36,7 +36,7 @@ Also, the first row should have a data label and be a long vertical data array. 
 
  　　 - This is the easiest way. However, it is not designed for online use, and some features may not be available (e.g., changing fonts).
    
-2. Use offline
+2. [Use offline](https://shun4423.github.io/ggplot2_GUi/)
    
    a. Install the missing libraries.
    
@@ -81,7 +81,7 @@ R.studioは2021.09.0+351、Rは4.1.1です。
 
  　　 - これが最も簡単な方法です。ただし、オンラインでの使用を想定していないため、一部の機能（フォントの変更など）が利用できない場合があります。
    
-2. Use offline
+2. [Use offline](https://shun4423.github.io/ggplot2_GUi/)
    
    a. 不足しているライブラリーをインストールする。
    
