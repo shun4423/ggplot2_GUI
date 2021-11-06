@@ -33,7 +33,7 @@ Also, the first row should have a data label and be a long vertical data array. 
    
 2. Use offline
    
-   a. Install the missing libraries.
+   a. Install the missing .
    
    b. Create a folder in C:\Users\your user name\Documents\R and store each R file and www.
    
@@ -79,7 +79,7 @@ R.studioは2021.09.0+351、Rは4.1.1です。
    
 2. Use offline
    
-   a. 不足しているライブラリーをインストールする。
+   a. 不足しているパッケージをインストールする。
    
    b. C:\Users\your user name\Documents\Rにフォルダを作成し、各Rファイルとｗｗｗを収納する。
    
