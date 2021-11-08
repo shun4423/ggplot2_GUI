@@ -75,7 +75,7 @@ R.studioは2021.09.0+351、Rは4.1.1です。
 
 1. [Use online](https://shun4423.shinyapps.io/ggplot2_GUi/)
 
- 　　 - This is the easiest way. However, it is not designed for online use, and some features may not be available (e.g., changing fonts).
+ 　　 - もっともかんたんな方法です。しかし、オンライン使用を前提につくられていないため、一部の機能が使えません（フォントの変更やブックマーク）。
    
 2. Use offline
    
