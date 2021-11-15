@@ -1,5 +1,5 @@
 ui <- function(request){
-  fluidPage(
+  fluidPage(theme = shinytheme("united"),
     tags$script(src = "returnClick.js"),
     useShinyjs(),
     sidebarLayout(
@@ -16,16 +16,18 @@ ui <- function(request){
                            tags$hr(),
                           
                            htmlOutput("colname1"),
+                           conditionalPanel(condition = "input.graph == 'scatter' || input.graph == 'lineplot'",
+                                                     tags$h6("Please check out")),
                            checkboxInput("factify","make x factor",T),
                            htmlOutput("colname2"),
-                           checkboxInput("divide","by Group",T),
+                           checkboxInput("divide","by Group(or Colored)",T),
                            conditionalPanel(condition = "input.divide == true",
                                             htmlOutput("soubetuka")),
                            
                            selectInput("graph","graph:",choices=c("dotplot(n<10)"="dotplot",
                                                                   "boxplot",
-                                                                  #"violinplot"
-                                                                 )),
+                                                                  "line graph"="lineplot",
+                                                                  "scatter plot"="scatter")),
                            actionButton("submit", "plot"),
                            selectInput("jit","jitter:",choices=c("center"="cent",
                                                                  "quasirandom",
@@ -115,6 +117,8 @@ ui <- function(request){
                               numericInput("lab_x_a","x lab angle", value = 0),
                               checkboxInput("not_x","or not showing",F)),
                            checkboxInput("flip","flip x axis",F),
+                           checkboxInput("reverse","reverse axis", F),
+                           checkboxInput("lab_zero","genten 0", F),
                            checkboxInput("change_x","change max value(x)",F),
                            checkboxInput("change_y","change max value(y)",F),
                            conditionalPanel(condition = "input.change_x == true",
@@ -133,10 +137,35 @@ ui <- function(request){
         tabsetPanel(type = "tabs",
                     
                     tabPanel("Table",
-                             tableOutput('table')),
+                             dataTableOutput('table')),
                     
-                    tabPanel("Plot", jqui_resizable(plotOutput("plot", height = "800px")),
-                                     selectInput("summ","summary:",choices=c("mean","SE","no"))),
+                    tabPanel("Plot", 
+                             column(1,
+                              img(src = "tate.png", height = 786, width = 28)),
+                             column(11,
+                              jqui_resizable(plotOutput("plot", height = "800px")),
+                              img(src = "yoko.png", height = 28, width = 786),
+                              conditionalPanel(condition = "input.graph == 'dotplot' || input.graph == 'boxplot'",
+                               
+                               selectInput("summ","summary:",choices=c("mean","SE","no"),selected=shokiti_summ),
+                               checkboxInput("col_stat","stat is black",F)
+                                               ),
+                              conditionalPanel(condition = "input.graph == 'lineplot'",
+                               selectInput("SE", "SE:",choices = c("1SE(68%)"=1,
+                                                                  "1.645SE(90%)"=1.645,
+                                                                  "2SE(95%)"=2,
+                                                                  "2.575SE(99%)"=2.575),selected = "1SE(68%)"),
+                               
+                                               ),
+                              conditionalPanel(condition = "input.graph == 'scatter'",
+                                selectInput("fomul","degree:",choices = c("y ~ x"="1",
+                                                                          "y ~ x + I(x^2)"="2",
+                                                                          "y ~ x + I(x^2) + I(x^3)"="3"),selected = "y ~ x"),
+                                checkboxInput("CI","SE:",T),
+                                selectInput("type_sm","Type of smooth:",choices = c("lm","glm","gam","loess"))
+                                              ),
+                                selectInput("type_er","type of error bar",choices = c("1","2"))
+                                    )),
                     tabPanel("palette",  img(src = "wesanderson.png", height = 264, width = 466),
                                          img(src = "rcolorbrewer.png", height = 496, width = 396))
                     )
