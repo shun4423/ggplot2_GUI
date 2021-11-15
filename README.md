@@ -37,7 +37,7 @@ Also, the first row should have a data label and be a long vertical data array. 
    
    b. Create a folder in C:\Users\your user name\Documents\R and store each R file and www.
    
-   c. Start Rstudio and double-click the downloaded R file in the lower right window.
+   c. Start Rstudio and double-click the downloaded "ggplot2_GUi.Rproj" in the lower right window.
     
    d. Click ▶ Run App.
 
@@ -83,7 +83,7 @@ R.studioは2021.09.0+351、Rは4.1.1です。
    
    b. C:\Users\your user name\Documents\Rにフォルダを作成し、各Rファイルとｗｗｗを収納する。
    
-   c. Rstudioを起動し、右下のウィンドウからダウンロードしたRファイルをダブルクリックする。
+   c. Rstudioを起動し、右下のウィンドウからダウンロードした「ggplot2_GUi.Rproj」をダブルクリックする。
     
    d. ▶Run App をクリックする。
 
